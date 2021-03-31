@@ -1,4 +1,4 @@
-package Teme1;
+package HomeWork.Teme1;
 
 public class RemoveDuplicateFromArray {
     public static void main(String[] args) {

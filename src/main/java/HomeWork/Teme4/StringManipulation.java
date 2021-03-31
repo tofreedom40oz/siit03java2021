@@ -1,12 +1,25 @@
-package Teme4;
+package HomeWork.Teme4;
 
 import java.util.*;
 
-class StringManipulation {
+public class StringManipulation {
     public static void main(String[] args) {
-        reverseMethod();
+
+
+
+        reverseMethod("Covid18");
+
+
         PrintDuplicates();
-        CheckIfAnagram();
+
+        boolean isAnagram = CheckIfAnagram("cat", "atc");
+        if (isAnagram == true) {
+            System.out.println("The given Strings are anagram of each other");
+        } else {
+            System.out.println("The given Strings aren't anagram of each other");
+        }
+        CheckIfAnagram("sdadsa", "dasfdwetgw");
+
         CheckIfDigits();
         Vowels();
         CountOccurence();
@@ -20,11 +33,13 @@ class StringManipulation {
 
     }
 
-    private static void reverseMethod() {
-        String name = "Covid18";
+
+    public static String reverseMethod(String name ) {
+        //String name = "Covid18";
         String reverse = new StringBuffer(name).reverse().toString();
-        //String rev = reverse.toLowerCase();
+        String rev = reverse.toLowerCase();
         System.out.println(reverse);
+        return reverse;
     }
 
     private static void PrintDuplicates() {
@@ -43,15 +58,14 @@ class StringManipulation {
         System.out.println("Duplicate characters:" + map);
     }
 
-    private static void CheckIfAnagram() {
-        String s1 = "cat";
-        String s2 = "atc";
+    public static boolean CheckIfAnagram(String s1, String s2) {
         if (
                 Arrays.equals(s1.chars().sorted().toArray(),
                         s2.chars().sorted().toArray())) {
-            System.out.println("The given Strings are anagram of each other");
+
+            return true;
         } else {
-            System.out.println("The given Strings aren't anagram of each other");
+            return false;
         }
     }
 

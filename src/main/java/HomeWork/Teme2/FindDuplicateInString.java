@@ -1,4 +1,4 @@
-package Teme2;
+package HomeWork.Teme2;
 import java.util.Scanner;
 
 public class FindDuplicateInString {

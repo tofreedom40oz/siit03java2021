@@ -1,4 +1,4 @@
-package Teme3;
+package HomeWork.Teme3;
 
 import java.util.ArrayList;
 import java.util.List;

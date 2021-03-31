@@ -1,4 +1,4 @@
-package Teme2.RefactoredHomework;
+package HomeWork.Teme2.RefactoredHomework;
 import java.util.Scanner;
 
 public class CheckIfNumberIsPalindrome {

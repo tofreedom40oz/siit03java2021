@@ -1,4 +1,4 @@
-package Teme1;
+package HomeWork.Teme1;
 import java.util.Scanner;
 public class SmallestNumberOfAnArrayFOR {
     public static void main(String[] args) {

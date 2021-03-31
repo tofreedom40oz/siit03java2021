@@ -1,4 +1,4 @@
-package Teme2.RefactoredHomework;
+package HomeWork.Teme2.RefactoredHomework;
 
 
 public class SmallestNumberOfAnArray {

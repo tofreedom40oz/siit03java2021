@@ -1,4 +1,4 @@
-package Teme2.RefactoredHomework;
+package HomeWork.Teme2.RefactoredHomework;
 
 public class CheckIfArrayIsSquare {
         public static void main(String[] Args) {

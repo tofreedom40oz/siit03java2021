@@ -1,4 +1,4 @@
-package Teme2.RefactoredHomework;
+package HomeWork.Teme2.RefactoredHomework;
 import java.util.*;
 public class DaysAndMonth {
     public static void main(String[] args) {
